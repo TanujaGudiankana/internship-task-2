@@ -77,18 +77,17 @@ It explains:
 ## 📂 Folder Structure
 
 DevFlare/
-├── index.html          # Home page
-├── about.html          # About / Services page
-├── contact.html        # Contact page with Netlify form
+├── index.html # Home page
+├── about.html # About / Services page
+├── contact.html # Contact page with Netlify form
 ├── css/
-│   └── style.css       # Custom CSS styles
+│ └── style.css # Custom CSS styles
 ├── js/
-│   └── script.js       # Optional JavaScript for interactivity
+│ └── script.js # Optional JavaScript for interactivity
 ├── assets/
-│   ├── images/         # All images used in the website
-│   └── icons/          # Any icons not included via Bootstrap Icons
-└── README.md           # Project Reflection Report & documentation
-
+│ ├── images/ # All images used in the website
+│ └── icons/ # Any icons not included via Bootstrap Icons
+└── README.md # Project Reflection Report & documentation
 ---
 
 ## ✅ Outcome
