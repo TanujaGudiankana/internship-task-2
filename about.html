@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About – Project One</title>
+    <meta name="description" content="About and services information for Project One." />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-glass fixed-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">ProjectOne</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="py-5 mt-5 bg-body-tertiary border-bottom">
+      <div class="container py-4">
+        <div class="row align-items-center g-4">
+          <div class="col-12 col-lg-7">
+            <h1 class="display-5 fw-bold">About ProjectOne</h1>
+            <p class="lead">We craft clean, modern web interfaces using Bootstrap 5, focusing on speed, accessibility, and aesthetics.</p>
+          </div>
+          <div class="col-12 col-lg-5">
+            <div class="ratio ratio-16x9 rounded shadow-sm overflow-hidden">
+              <img class="object-fit-cover" src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?q=80&w=1400&auto=format&fit=crop" alt="Team working together" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-12 col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <div class="icon-shape text-primary mb-3"><i class="bi bi-heart fs-2"></i></div>
+                <h5 class="card-title">Our Mission</h5>
+                <p class="card-text">Empower teams to build beautiful, performant websites quickly using well-structured components.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <div class="icon-shape text-primary mb-3"><i class="bi bi-shield-check fs-2"></i></div>
+                <h5 class="card-title">Values</h5>
+                <p class="card-text">Accessibility, clarity, and craftsmanship guide our design and coding choices.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <div class="icon-shape text-primary mb-3"><i class="bi bi-stars fs-2"></i></div>
+                <h5 class="card-title">Impact</h5>
+                <p class="card-text">We help teams ship faster without sacrificing quality or user experience.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-body-tertiary">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="col-12 col-lg-6">
+            <h2 class="fw-bold mb-3">Services</h2>
+            <p class="text-body-secondary">From landing pages to multi-page sites, we assemble cohesive experiences using Bootstrap's best practices.</p>
+            <ul class="list-unstyled vstack gap-2">
+              <li><i class="bi bi-check-circle text-success me-2"></i>Custom Bootstrap theming</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Responsive page composition</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Accessibility reviews</li>
+              <li><i class="bi bi-check-circle text-success me-2"></i>Netlify/GitHub Pages deployment</li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="accordion shadow-sm" id="faq">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="q1">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#a1" aria-expanded="true" aria-controls="a1">How do you approach design?</button>
+                </h2>
+                <div id="a1" class="accordion-collapse collapse show" aria-labelledby="q1" data-bs-parent="#faq">
+                  <div class="accordion-body">We start with structure and spacing, then layer typography and subtle micro-interactions.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="q2">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a2" aria-expanded="false" aria-controls="a2">What about performance?</button>
+                </h2>
+                <div id="a2" class="accordion-collapse collapse" aria-labelledby="q2" data-bs-parent="#faq">
+                  <div class="accordion-body">We keep dependencies minimal (CDNs), optimize images, and leverage Bootstrap utilities.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="q3">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a3" aria-expanded="false" aria-controls="a3">Do you support customization?</button>
+                </h2>
+                <div id="a3" class="accordion-collapse collapse" aria-labelledby="q3" data-bs-parent="#faq">
+                  <div class="accordion-body">Yes. Our CSS overrides and variables allow easy branding updates without heavy refactors.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">Team</h2>
+          <p class="text-body-secondary">A small team with a big love for great UI.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100 text-center shadow-sm">
+              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop" class="card-img-top" alt="Member" />
+              <div class="card-body">
+                <h6 class="fw-semibold mb-1">Alex Carter</h6>
+                <small class="text-body-secondary">Design Lead</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100 text-center shadow-sm">
+              <img src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=800&auto=format&fit=crop" class="card-img-top" alt="Member" />
+              <div class="card-body">
+                <h6 class="fw-semibold mb-1">Jamie Lee</h6>
+                <small class="text-body-secondary">Frontend Engineer</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100 text-center shadow-sm">
+              <img src="https://images.unsplash.com/photo-1544005316-04ae1a43f5cd?q=80&w=800&auto=format&fit=crop" class="card-img-top" alt="Member" />
+              <div class="card-body">
+                <h6 class="fw-semibold mb-1">Taylor Brooks</h6>
+                <small class="text-body-secondary">Accessibility Advocate</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100 text-center shadow-sm">
+              <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=800&auto=format&fit=crop" class="card-img-top" alt="Member" />
+              <div class="card-body">
+                <h6 class="fw-semibold mb-1">Riley Nguyen</h6>
+                <small class="text-body-secondary">DevOps</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-5 bg-dark text-white">
+      <div class="container d-flex justify-content-between align-items-center">
+        <small class="text-white-50">© <span id="year"></span> ProjectOne</small>
+        <a href="contact.html" class="btn btn-primary">Work with us</a>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+  
+</html>
+
+
