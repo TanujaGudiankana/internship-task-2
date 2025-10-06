@@ -76,18 +76,8 @@ It explains:
 
 ## 📂 Folder Structure
 
-DevFlare/
-├─ index.html # Home page
-├─ about.html # About / Services page
-├─ contact.html # Contact page with Netlify form
-├─ css/
-│ └─ style.css # Custom CSS styles
-├─ js/
-│ └─ script.js # Optional JavaScript for interactivity
-├─ assets/
-│ ├─ images/ # All images used in the website
-│ └─ icons/ # Any icons not included via Bootstrap Icons
-└─ README.md # Project Reflection Report & documentation
+<img width="800" height="425" alt="image" src="https://github.com/user-attachments/assets/77049d1b-5db1-45d8-b175-8ea3135a4567" />
+
 ---
 ## ✅ Outcome
 
