@@ -87,7 +87,7 @@ DevFlare/
 ├── assets/
 │   ├── images/         # All images used in the website
 │   └── icons/          # Any icons not included via Bootstrap Icons
-├── README.md           # Project Reflection Report & documentation
+└── README.md           # Project Reflection Report & documentation
 
 ---
 
