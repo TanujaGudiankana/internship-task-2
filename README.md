@@ -68,3 +68,11 @@ npm run build
 - Generates optimized output in `dist/` folder
 - Minifies HTML and copies all assets
 
+📝 Notes
+
+Legacy top-level HTML files and root assets are removed to avoid confusion
+
+Additional pages: add .njk file under src/templates/pages/ → will compile to dist/ automatically
+
+Images: add under src/assets/images/ → copied to dist/assets/images/ automatically
+
