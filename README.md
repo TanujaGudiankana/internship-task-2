@@ -39,25 +39,28 @@
 ## 💻 Installation & Usage
 
 1. **Install dependencies**
-
 ```bash
 npm install
-**
+
 2. **Start development server (with live reload)**
+
+```bash
 npm start
 Opens live server at: http://localhost:3000
 
 Watches for changes in templates and assets
 
-3.**Build project once (no live reload)**
+Build project once (no live reload)
+
 npm run build
+
+
 Generates compiled HTML and copies assets into dist/
 
-Notes
+📝 Notes
 
 Legacy top-level HTML files and root assets are removed to avoid confusion
 
 Additional pages: add .njk file under src/templates/pages/ → will compile to dist/ automatically
 
 Images: add under src/assets/images/ → copied to dist/assets/images/ automatically
-
