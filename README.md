@@ -153,12 +153,13 @@ npm run build
 
 ## 🚀 Deployment
 
-<<<<<<< HEAD
-Deploy the contents of the `dist/` folder to any static hosting service:
-- GitHub Pages
-- Netlify
-- Vercel
-- AWS S3
+🌐 Live Website
+
+👉 https://devflaretask2.netlify.app/
+
+💻 GitHub Repository
+
+📦
 
 ## 📋 Task 2 Compliance
 
@@ -171,6 +172,4 @@ Deploy the contents of the `dist/` folder to any static hosting service:
 
 ---
 =======
-Images: add under src/assets/images/ → copied to dist/assets/images/ automatically
 
->>>>>>> 7a0598124d9866d7f086a3396d46bdc58c4abd23
