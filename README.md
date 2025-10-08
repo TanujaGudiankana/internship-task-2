@@ -107,7 +107,7 @@ internship-task-2/
 
 ### Installation
 
->>>>>>> 7a0598124d9866d7f086a3396d46bdc58c4abd23
+
 1. **Install dependencies:**
 ```bash
 npm install
@@ -141,7 +141,6 @@ npm run build
 - `serve` - Starts development server with file watching
 - `build` - Production build (clean + templates + assets)
 =======
->>>>>>> 7a0598124d9866d7f086a3396d46bdc58c4abd23
 
 ## 📝 Development Notes
 
@@ -159,7 +158,7 @@ npm run build
 
 💻 GitHub Repository
 
-📦
+📦 https://github.com/TanujaGudiankana/internship-task-2
 
 ## 📋 Task 2 Compliance
 
