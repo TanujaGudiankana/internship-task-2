@@ -38,29 +38,33 @@
 
 ## 💻 Installation & Usage
 
-1. **Install dependencies**
+### Prerequisites
+- Node.js (v14 or higher)
+- npm
+
+### Installation
+
+1. **Install dependencies:**
 ```bash
 npm install
+```
 
-2. **Start development server (with live reload)**
+### Development
 
+2. **Start development server (with live reload):**
 ```bash
 npm start
-Opens live server at: http://localhost:3000
+```
+- Opens browser at: `http://localhost:3000`
+- Watches for changes in templates and assets
+- Automatically rebuilds and reloads browser
 
-Watches for changes in templates and assets
+### Production Build
 
-Build project once (no live reload)
-
+3. **Build project for production:**
+```bash
 npm run build
+```
+- Generates optimized output in `dist/` folder
+- Minifies HTML and copies all assets
 
-
-Generates compiled HTML and copies assets into dist/
-
-📝 Notes
-
-Legacy top-level HTML files and root assets are removed to avoid confusion
-
-Additional pages: add .njk file under src/templates/pages/ → will compile to dist/ automatically
-
-Images: add under src/assets/images/ → copied to dist/assets/images/ automatically
