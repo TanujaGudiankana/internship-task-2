@@ -1,71 +1,63 @@
-DevFlare 
-Task 2 – Nunjucks + Gulp Implementation
-🛠️ Technology Stack
+# 🚀 DevFlare – Task 2: Nunjucks + Gulp Implementation
 
-Templating Engine: Nunjucks
+## 🛠️ Technology Stack
 
-Task Runner: Gulp
+- **Templating Engine:** Nunjucks  
+  All HTML pages are written as Nunjucks templates (`.njk`) located in `src/templates/pages/` and use reusable layouts from `src/templates/layouts/`.
 
-📂 Project Structure
-project2/
-│
-├─ internship-task-2/
-│  ├─ src/
-│  │  ├─ templates/
-│  │  │  ├─ pages/        # Nunjucks page templates (index.njk, about.njk, contact.njk)
-│  │  │  └─ layouts/      # Base layouts and includes
-│  │  └─ assets/           # CSS, JS, images
-│  │      ├─ css/
-│  │      │  └─ style.css
-│  │      └─ js/
-│  │          └─ script.js
-│  ├─ dist/                # Compiled HTML and copied assets (output of Gulp build)
-│  └─ gulpfile.js          # Gulp tasks: clean, templates, assets, serve
-│
-├─ package.json             # Dependencies and npm scripts
-└─ README.md                # Project documentation
+- **Task Runner:** Gulp  
+  Automates the build process including:
+  - Cleaning the `dist/` folder  
+  - Compiling Nunjucks templates to minified HTML  
+  - Copying static assets (`css`, `js`, images)  
+  - Starting a live development server with BrowserSync and file watching  
 
-⚡ Features Implemented
+---
 
-Clean dist/ before build
+## 📂 Project Structure
 
-Compile Nunjucks templates → minified HTML
+<img width="844" height="491" alt="image" src="https://github.com/user-attachments/assets/6dd497df-f071-458c-8dee-f23e7316d698" />
 
-Copy static assets (css, js, images)
+**
+**Notes:**  
+- `src/` is the **source-of-truth**; `dist/` contains all compiled files.  
+- Legacy top-level HTML files and root `assets/` folder are removed to avoid confusion.  
 
-Live dev server with BrowserSync + file watching
+---
 
-Source-of-truth: src/**, build output: dist/**
+## ⚡ Features Implemented
 
-Optional: easily add new pages or images
+- **Clean build:** `dist/` is deleted before every build to prevent stale files  
+- **Template compilation:** Nunjucks pages (`.njk`) are compiled and minified to HTML  
+- **Asset management:** CSS, JS, and images are copied to `dist/assets/`  
+- **Live development server:** BrowserSync automatically reloads the browser on changes  
+- **Watchers:** Templates and assets are monitored for changes  
+- **Extensible:** Easily add new pages or images; they will automatically compile/copy  
 
-💻 Installation & Usage
+---
 
-Install dependencies
+## 💻 Installation & Usage
 
+1. **Install dependencies**
+
+```bash
 npm install
-
-
-Start development server (live reload)
-
+**
+2. **Start development server (with live reload)**
 npm start
-
-
-Opens a live server at: http://localhost:3000
+Opens live server at: http://localhost:3000
 
 Watches for changes in templates and assets
 
-Build project once (no live reload)
-
+3.**Build project once (no live reload)**
 npm run build
+Generates compiled HTML and copies assets into dist/
 
-
-Generates compiled output in dist/
-
-📝 Notes
+Notes
 
 Legacy top-level HTML files and root assets are removed to avoid confusion
 
 Additional pages: add .njk file under src/templates/pages/ → will compile to dist/ automatically
 
-Images: add under src/assets/images/ → copied to dist/assets/images/
+Images: add under src/assets/images/ → copied to dist/assets/images/ automatically
+
