@@ -1,0 +1,36 @@
+{
+  "name": "internship-task-2",
+  "version": "1.0.0",
+  "description": "Task 2: Nunjucks + Gulp Implementation - Recreating Task 1 deliverables using templating engine and task runner",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp serve",
+    "build": "gulp build",
+    "clean": "gulp clean"
+  },
+  "keywords": [
+    "nunjucks",
+    "gulp",
+    "templating",
+    "task-runner",
+    "static-site-generator"
+  ],
+  "author": "Tanuja Gudiankana",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "del": "^8.0.1",
+    "gulp": "^5.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-nunjucks-render": "^2.2.3"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TanujaGudiankana/internship-task-2.git"
+  },
+  "homepage": "https://github.com/TanujaGudiankana/internship-task-2#readme"
+}
